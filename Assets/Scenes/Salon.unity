@@ -10056,7 +10056,6 @@ GameObject:
   - component: {fileID: 1753834894}
   - component: {fileID: 1753834893}
   - component: {fileID: 1753834892}
-  - component: {fileID: 1753834891}
   - component: {fileID: 1753834890}
   - component: {fileID: 1753834889}
   - component: {fileID: 1753834888}
@@ -10300,8 +10299,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1753834896}
+  selectedCommands:
+  - {fileID: 1753834905}
   variables:
   - {fileID: 1753834860}
   - {fileID: 1753834857}
@@ -11212,33 +11213,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1753834891
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1753834852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 43
-  indentLevel: 0
-  storyText: You're god damn right.
-  description: 
-  character: {fileID: 768112585}
-  portrait: {fileID: 21300000, guid: a574c638d6525454dbeadbefd6a5ef22, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1753834892
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11364,7 +11338,6 @@ MonoBehaviour:
   - {fileID: 1753834894}
   - {fileID: 1753834893}
   - {fileID: 1753834892}
-  - {fileID: 1753834891}
   - {fileID: 1753834905}
   - {fileID: 1753834890}
   - {fileID: 1753834888}

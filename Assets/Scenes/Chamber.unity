@@ -8373,7 +8373,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1197698375}
   selectedCommands: []
   variables:
   - {fileID: 1197698398}
@@ -8473,7 +8474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: Where did you actuelly stored something that big ?!?
+  storyText: Where did you stored something that big ?!?
   description: 
   character: {fileID: 1058369322}
   portrait: {fileID: 21300000, guid: be55ab6cc7d285c49bf9ae708af4ccc8, type: 3}
